@@ -1,0 +1,33 @@
+{      
+	"PiIdentifier" : "RPIIshaan",
+
+        "GDM_URL" : "192.168.12.117",
+
+        "ControlSensorForTriggerDeviceId" : "59ae3233fbff4c077930496e",
+
+        "InfoLogTypeDescriptor" : "Info",
+        "ErrorLogTypeDescriptor" : "Error",
+        "WarningLogTypeDescriptor" : "Warning",
+
+        "PeatHumidityInterval" : "300",
+        "PeatHumidityDeviceId" : "59ae31b4fbff4c077930496d",
+
+        "CO2Interval" : "300" ,
+        "CO2DeviceId" : "59ae3181fbff4c077930496c",
+        
+        "LuminosityInterval" : "300",
+        "LuminosityDeviceId" : "59a59ef7413fb58412b4672f",
+
+	"DHT11Interval" : "300",
+	"DHT11DeviceId" : "59a563f4413fb58412b4672e",
+
+	"PeatHumidityCorrection" : [0,1,1],
+	"CO2Correction" : [0,2,3],
+      	"LuminosityCorrection" : [0,3.5, -2.99],
+	"DHT11_TemperatureCorrection" : [0, 5.2, -4],
+        "DHT11_HumidityCorrection" : [0, 30,123],
+	"Gas_SensorCorrection": [0, 10, 22]
+
+}
+
+
